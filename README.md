@@ -1,5 +1,5 @@
 # FastAndReliableFTP
-Developed a fast and reliable file transfer application to transfer large files of up to 1GB size over links with high latency and loss ratio by using UDP as the underlying transport layer protocol. 
+Developed a fast and reliable file transfer application to transfer large files of up to 1GB size over links with high latency and loss ratio by using raw sockets. 
 Approach- 
 1. Established a UDP connection and trasnferring file by dividing it up into equal sized packets. 
 2. Implemented a simplistic version of Negative Acknowledgements (NACK) to transmit the file reliably.
